@@ -47,8 +47,4 @@ control."
 - Pyranometer mounting arm + head
 - Thermocouple clip on the panel backside
 
-## Next steps for the repo
-- [ ] Swap in real specs once you have the report
-- [ ] Add MATLAB PV efficiency analysis (theoretical vs. measured I-V/power)
-- [ ] Add thermal/structural sim for the frame under wind/thermal load
-- [ ] Top-level README tying CAD + MATLAB + sim together as one project
+
