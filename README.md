@@ -20,11 +20,6 @@ storage situation). Everything here is a **faithful reconstruction**:
   have this level of tooling or FEA access as a bachelor's student. This
   is the honest "enhanced it in Germany" part.
 
-If asked about this directly (e.g. in an interview), the accurate framing
-is: *"The physical build and the theoretical-vs-measured comparison were
-done for my bachelor's. Since then I've rebuilt the CAD as a parametric
-model and added a proper efficiency model and a structural/thermal check
-on the frame — things I didn't have the tools or time for back then."*
 
 ## Repo structure
 ```
@@ -59,18 +54,3 @@ on the frame — things I didn't have the tools or time for back then."*
    thermal expansion of the frame, MATLAB closed-form model with a
    documented path to validate in real ANSYS.
 
-## Before publishing to GitHub
-- [ ] Swap in real specs from the report (panel datasheet, tilt range,
-      base dimensions) — update `cad/CAD_PARAMETERS.md` and the sketches,
-      and the parameter blocks in `matlab/pv_efficiency_analysis.m` and
-      `structural_thermal/structural_thermal_analysis.m`
-- [ ] Replace the synthetic "measured" I-V data with real logged
-      readings if you can recover/re-transcribe them from the report
-- [ ] Optionally run the real ANSYS study per `ANSYS_SETUP_NOTES.md` and
-      add the screenshots
-- [ ] Add a couple of photos of the original physical rig if you have
-      any (phone photos, conference presentation slides) — nothing beats
-      a real photo next to the CAD reconstruction
-- [ ] Decide how much of the "reconstruction" framing you want visible
-      in the public README vs. kept for interview conversation — the
-      honest version above is the safe default either way
