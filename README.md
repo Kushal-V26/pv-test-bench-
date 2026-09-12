@@ -7,7 +7,7 @@ extends that project with the tools now available during my master's
 (FAU Erlangen-Nürnberg) — CAD model, a MATLAB efficiency model, and a
 MATLAB structural/thermal check on the mounting frame.
 
-## ⚠️ Honest status of this repo
+## ⚠️ Honest status of this project
 The original native CAD files and raw test data no longer exist digitally
 — only a printed report survives (long story: pre-graduation laptop/
 storage situation). Everything here is a **faithful reconstruction**:
