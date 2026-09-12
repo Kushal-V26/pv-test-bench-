@@ -9,7 +9,7 @@ MATLAB structural/thermal check on the mounting frame.
 
 ## ⚠️ Honest status of this project
 The original native CAD files and raw test data no longer exist digitally
-— only a printed report survives (long story: pre-graduation laptop/
+— only a printed report survives (reason: pre-graduation laptop/
 storage situation). Everything here is a **faithful reconstruction**:
 - The panel size, tilt mechanism, and test methodology match the real
   project.
