@@ -42,9 +42,7 @@ storage situation). Everything here is a **faithful reconstruction**:
 1. **Original bachelor's work**: physical test bench, PV panel, tilt
    adjustment, irradiance/temperature/output logging, theoretical vs.
    measured efficiency comparison, presented at ICGCP-2023.
-2. **CAD reconstruction**: rebuilt as a native STEP/STL assembly — opens
-   directly in Solid Edge/SolidWorks/NX, with a dimension sheet
-   (`CAD_PARAMETERS.md`) for editing or rebuilding it from scratch.
+2. **CAD reconstruction**: rebuilt as a native STEP/STL assembly
 3. **Efficiency analysis (new)**: single-diode I-V model in MATLAB,
    swept across irradiance and temperature, benchmarked against a
    synthetic "measured" curve with realistic real-world losses (series
